@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="bottombar_background_color">#FF8200</color>
+
+    <color name="background">#FBFBFB</color>
+    <color name="accent">#FF8200</color>
 </resources>

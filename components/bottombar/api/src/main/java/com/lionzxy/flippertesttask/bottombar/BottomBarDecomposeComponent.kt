@@ -1,12 +1,13 @@
 package com.lionzxy.flippertesttask.bottombar
 
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import com.arkivanov.decompose.ComponentContext
+import com.flipperdevices.core.decompose.ScreenDecomposeComponent
 
-abstract class BottomBarDecomposeComponent {
-    @Composable
-    abstract fun Render(modifier: Modifier)
+abstract class BottomBarDecomposeComponent(
+    componentContext: ComponentContext
+) : ScreenDecomposeComponent(
+    componentContext
+) {
     fun interface Factory {
         operator fun invoke(
             componentContext: ComponentContext

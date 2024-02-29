@@ -19,4 +19,7 @@ dependencies {
 
     implementation(libs.bundles.decompose)
     implementation(libs.kotlin.serialization.json)
+
+    implementation(projects.components.rootscreen.api)
+    implementation(projects.components.bridge.dao.api)
 }

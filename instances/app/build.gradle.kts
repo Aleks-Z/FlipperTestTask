@@ -16,7 +16,14 @@ dependencies {
     implementation(projects.components.bottombar.impl)
     implementation(projects.components.lockerchoose.api)
     implementation(projects.components.lockerchoose.impl)
+    implementation(projects.components.keychoose.api)
+    implementation(projects.components.keychoose.impl)
 
+    implementation(projects.components.rootscreen.api)
+    implementation(projects.components.rootscreen.impl)
+
+    implementation(projects.components.bridge.dao.api)
+    implementation(projects.components.bridge.dao.impl)
 
     implementation(libs.compose.ui)
     implementation(libs.compose.foundation)

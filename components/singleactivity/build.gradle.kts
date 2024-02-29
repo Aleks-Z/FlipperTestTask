@@ -19,4 +19,6 @@ dependencies {
     implementation(libs.compose.foundation)
     implementation(libs.bundles.decompose)
     implementation(libs.compose.activity)
+
+    implementation(projects.components.rootscreen.api)
 }

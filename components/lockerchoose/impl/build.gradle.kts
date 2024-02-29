@@ -11,6 +11,10 @@ dependencies {
     implementation(projects.components.core.di)
     implementation(projects.components.core.decompose)
 
+    implementation(projects.components.rootscreen.api)
+
+    implementation(projects.components.bridge.dao.api)
+
     implementation(libs.compose.ui)
     implementation(libs.compose.foundation)
     implementation(libs.compose.material)

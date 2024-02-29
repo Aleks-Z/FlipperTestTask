@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab">%1$s tab</string>
+    <string name="locker">Locker #%1$s</string>
+    <string name="key">Key #%1$s</string>
+    <string name="key_not_found">Key not found</string>
+</resources>

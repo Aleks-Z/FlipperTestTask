@@ -27,5 +27,11 @@ include(
     ":components:bottombar:api",
     ":components:bottombar:impl",
     ":components:lockerchoose:api",
-    ":components:lockerchoose:impl"
+    ":components:lockerchoose:impl",
+    ":components:keychoose:api",
+    ":components:keychoose:impl",
+    ":components:rootscreen:api",
+    ":components:rootscreen:impl",
+    ":components:bridge:dao:api",
+    ":components:bridge:dao:impl",
 )
